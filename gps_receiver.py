@@ -4,10 +4,10 @@ import time
 import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-TCP_HOST = "0.0.0.0"
+TCP_HOST = "149.81.112.139"
 TCP_PORT = 7070
 
-HTTP_HOST = "0.0.0.0"
+HTTP_HOST = "149.81.112.139"
 HTTP_PORT = 8080
 
 MAX_FRAMES = 200
