@@ -8,7 +8,7 @@ print("En attente de données du boîtier Coban...")
 def start_sniffer():
     # Création du socket TCP
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.bind(('149.81.112.139', PORT))
+        s.bind(('0.0.0.0', PORT))
         s.listen(5)
         
         while True:
