@@ -1,7 +1,7 @@
 import socket
 
 # Configuration
-PORT = 5000 
+PORT = 8080 
 print(f"--- SERVEUR D'ÉCOUTE GPS ACTIF SUR LE PORT {PORT} ---")
 print("En attente de données du boîtier Coban...")
 
